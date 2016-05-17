@@ -7,9 +7,9 @@ public class PricingRules {
 
     Map<String, Integer> itemUnitPrice = new HashMap<String, Integer>(){{
         put("A", 50);
-        put("B", 50);
-        put("C", 50);
-        put("D", 50);
+        put("B", 30);
+        put("C", 20);
+        put("D", 15);
     }};
 
 
