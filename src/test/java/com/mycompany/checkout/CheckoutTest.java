@@ -2,6 +2,7 @@ package com.mycompany.checkout;
 
 import com.sun.org.apache.bcel.internal.generic.CHECKCAST;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -50,5 +51,19 @@ public class CheckoutTest {
         checkout.scan("A");
         checkout.scan("A");
         assertThat(checkout.total(), is(130));
+    }
+
+    @Test
+    public void whenTwoOfTheSameItemsScannedShouldBeCorrectTotal() {
+        checkout.scan("A");
+        checkout.scan("A");
+        assertThat(checkout.total(), is(100));
+    }
+
+    @Test
+    public void whenBScannedTwiceShouldBeCorrectTotal() {
+        checkout.scan("B");
+        checkout.scan("B");
+        assertThat(checkout.total(), is(45));
     }
 }

@@ -15,8 +15,13 @@ public class Checkout {
 
     public int total() {
         for (Map.Entry<String, Integer> basketEntry : basket.entrySet()) {
-            System.out.println("Items in the basket ======> " + basketEntry.getValue());
-            sum += pricingRules.itemUnitPrice.get(basketEntry.getKey());
+            SpecialPrice specialPrice = pricingRules.itemSpecialPrice.get(basketEntry.getKey());
+            if (pricingRules.itemSpecialPrice.containsKey(basketEntry.getKey()) && basketEntry.getValue() >= specialPrice.getQty()) {
+                sum += specialPrice.getPrice();
+
+            } else {
+                sum += (pricingRules.itemUnitPrice.get(basketEntry.getKey()) * basketEntry.getValue());
+            }
         }
         return sum;
     }

@@ -4,7 +4,7 @@
     <list default="true" id="17ac466a-87b8-4182-8f3a-747f1e5683d1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/checkout/Checkout.java" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/checkout/Checkout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/checkout/PricingRules.java" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/checkout/PricingRules.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/checkout/SpecialPrice.java" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/checkout/SpecialPrice.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/checkout/CheckoutTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/checkout/CheckoutTest.java" />
     </list>
     <ignored path="my-app.iws" />
@@ -31,14 +31,14 @@
     <favorites_list name="my-app" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.44522968">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="PricingRules.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="PricingRules.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/PricingRules.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="240">
-                  <caret line="16" column="35" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="35" />
+                  <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -46,12 +46,17 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SpecialPrice.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="SpecialPrice.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/SpecialPrice.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-                  <folding />
+                <state relative-caret-position="240">
+                  <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#258#259#0" expanded="true" />
+                    <element signature="e#286#287#0" expanded="true" />
+                    <element signature="e#317#318#0" expanded="true" />
+                    <element signature="e#343#344#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -60,30 +65,25 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="CheckoutTest.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="CheckoutTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/checkout/CheckoutTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#522#523#0" expanded="true" />
-                    <element signature="e#573#574#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Checkout.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Checkout.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/Checkout.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                <state relative-caret-position="255">
+                  <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#199#216#0" expanded="true" />
-                    <element signature="e#293#294#0" expanded="true" />
-                    <element signature="e#341#342#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -120,11 +120,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/checkout/Basket.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/checkout/Inventory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/checkout/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/checkout/SpecialPrice.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mycompany/checkout/BasketTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mycompany/checkout/InventoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/checkout/PricingRules.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mycompany/checkout/CheckoutTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/checkout/SpecialPrice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/checkout/Checkout.java" />
       </list>
     </option>
@@ -171,7 +171,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -184,86 +184,10 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/gds/pay-selfservice" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -281,58 +205,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CheckoutTest">
-    <configuration default="false" name="CheckoutTest.whenNoItemsHasBeenScannedTotalShouldBeZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mycompany.checkout.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="checkout" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mycompany.checkout" />
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.checkout.CheckoutTest" />
-      <option name="METHOD_NAME" value="whenNoItemsHasBeenScannedTotalShouldBeZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CheckoutTest.whenItemHasBeenScannedTotalShouldBePriceOfTheItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mycompany.checkout.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="checkout" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mycompany.checkout" />
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.checkout.CheckoutTest" />
-      <option name="METHOD_NAME" value="whenItemHasBeenScannedTotalShouldBePriceOfTheItem" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="CheckoutTest.whenTwoDifferentItemsHaveBeenScannedTotalShouldBePriceOfBothTheItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -398,6 +270,58 @@
       <option name="PACKAGE_NAME" value="com.mycompany.checkout" />
       <option name="MAIN_CLASS_NAME" value="com.mycompany.checkout.CheckoutTest" />
       <option name="METHOD_NAME" value="whenThreeAScannedSpecialPriceShouldApply" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CheckoutTest.whenTwoOfTheSameItemsScannedShouldBeCorrectTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.checkout.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="checkout" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mycompany.checkout" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.checkout.CheckoutTest" />
+      <option name="METHOD_NAME" value="whenTwoOfTheSameItemsScannedShouldBeCorrectTotal" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CheckoutTest.whenBScannedTwiceShouldBeCorrectTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.checkout.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="checkout" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mycompany.checkout" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.checkout.CheckoutTest" />
+      <option name="METHOD_NAME" value="whenBScannedTwiceShouldBeCorrectTotal" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -646,19 +570,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenNoItemsHasBeenScannedTotalShouldBeZero" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenItemHasBeenScannedTotalShouldBePriceOfTheItem" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenTwoDifferentItemsHaveBeenScannedTotalShouldBePriceOfBothTheItems" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CheckoutTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenThreeAScannedSpecialPriceShouldApply" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenTwoDifferentItemsHaveBeenScannedTotalShouldBePriceOfBothTheItems" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CheckoutTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenThreeAScannedSpecialPriceShouldApply" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenTwoOfTheSameItemsScannedShouldBeCorrectTotal" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenBScannedTwiceShouldBeCorrectTotal" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.CheckoutTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenThreeAScannedSpecialPriceShouldApply" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenTwoDifferentItemsHaveBeenScannedTotalShouldBePriceOfBothTheItems" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenItemHasBeenScannedTotalShouldBePriceOfTheItem" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenNoItemsHasBeenScannedTotalShouldBeZero" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenBScannedTwiceShouldBeCorrectTotal" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenThreeAScannedSpecialPriceShouldApply" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenTwoOfTheSameItemsScannedShouldBeCorrectTotal" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CheckoutTest.whenTwoDifferentItemsHaveBeenScannedTotalShouldBePriceOfBothTheItems" />
       </list>
     </recent_temporary>
   </component>
@@ -679,35 +603,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckoutTest - 2016.05.17 at 17h 27m 56s.xml">
+    <history-entry file="CheckoutTest - 2016.05.20 at 11h 38m 26s.xml">
       <configuration name="CheckoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckoutTest - 2016.05.17 at 17h 28m 06s.xml">
+    <history-entry file="CheckoutTest - 2016.05.20 at 11h 40m 44s.xml">
       <configuration name="CheckoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckoutTest - 2016.05.17 at 17h 35m 09s.xml">
+    <history-entry file="CheckoutTest - 2016.05.20 at 11h 42m 30s.xml">
       <configuration name="CheckoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckoutTest - 2016.05.17 at 17h 52m 34s.xml">
+    <history-entry file="CheckoutTest - 2016.05.20 at 11h 52m 00s.xml">
       <configuration name="CheckoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckoutTest_whenItemHasBeenScannedTotalShouldBePriceOfTheItem - 2016.05.17 at 16h 20m 14s.xml">
-      <configuration name="CheckoutTest.whenItemHasBeenScannedTotalShouldBePriceOfTheItem" configurationId="JUnit" />
+    <history-entry file="CheckoutTest_whenBScannedTwiceShouldBeCorrectTotal - 2016.05.20 at 11h 44m 08s.xml">
+      <configuration name="CheckoutTest.whenBScannedTwiceShouldBeCorrectTotal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckoutTest_whenThreeAScannedSpecialPriceShouldApply - 2016.05.17 at 17h 36m 51s.xml">
+    <history-entry file="CheckoutTest_whenBScannedTwiceShouldBeCorrectTotal - 2016.05.20 at 11h 49m 51s.xml">
+      <configuration name="CheckoutTest.whenBScannedTwiceShouldBeCorrectTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutTest_whenBScannedTwiceShouldBeCorrectTotal - 2016.05.20 at 11h 51m 48s.xml">
+      <configuration name="CheckoutTest.whenBScannedTwiceShouldBeCorrectTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutTest_whenThreeAScannedSpecialPriceShouldApply - 2016.05.20 at 11h 29m 26s.xml">
       <configuration name="CheckoutTest.whenThreeAScannedSpecialPriceShouldApply" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckoutTest_whenThreeAScannedSpecialPriceShouldApply - 2016.05.17 at 17h 45m 25s.xml">
+    <history-entry file="CheckoutTest_whenThreeAScannedSpecialPriceShouldApply - 2016.05.20 at 11h 38m 16s.xml">
       <configuration name="CheckoutTest.whenThreeAScannedSpecialPriceShouldApply" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckoutTest_whenTwoDifferentItemsHaveBeenScannedTotalShouldBePriceOfBothTheItems - 2016.05.17 at 16h 43m 04s.xml">
-      <configuration name="CheckoutTest.whenTwoDifferentItemsHaveBeenScannedTotalShouldBePriceOfBothTheItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTest_whenTwoDifferentItemsHaveBeenScannedTotalShouldBePriceOfBothTheItems - 2016.05.17 at 16h 43m 49s.xml">
-      <configuration name="CheckoutTest.whenTwoDifferentItemsHaveBeenScannedTotalShouldBePriceOfBothTheItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTest_whenTwoDifferentItemsHaveBeenScannedTotalShouldBePriceOfBothTheItems - 2016.05.17 at 17h 22m 53s.xml">
-      <configuration name="CheckoutTest.whenTwoDifferentItemsHaveBeenScannedTotalShouldBePriceOfBothTheItems" configurationId="JUnit" />
+    <history-entry file="CheckoutTest_whenTwoOfTheSameItemsScannedShouldBeCorrectTotal - 2016.05.20 at 11h 29m 06s.xml">
+      <configuration name="CheckoutTest.whenTwoOfTheSameItemsScannedShouldBeCorrectTotal" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -716,17 +640,17 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.264308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2637644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.49322033" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3008963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3008963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19027181" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19027181" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.49322033" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -763,100 +687,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/PricingRules.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="225">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/checkout/CheckoutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/PricingRules.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/checkout/CheckoutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/checkout/InventoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/Inventory.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/checkout/Basket.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/Inventory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/Basket.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/Item.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/checkout/BasketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/checkout/InventoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#968#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,34 +699,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/checkout/CheckoutTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="195">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/PricingRules.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -900,13 +720,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/Checkout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#199#216#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/PricingRules.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/SpecialPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/checkout/Checkout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/checkout/CheckoutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
